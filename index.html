@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="libs/aos.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>exemplo do site pro cliente</title>
+  </head>
+  <body>
+    <!-- CABEÇALHO -->
+    <header>
+      <div class="menu">
+        <img
+          style="width: 70px; border-radius: 50%"
+          src="imagens/logo ficticia.png"
+          alt="logo- barbearia"
+        />
+
+        <h2 class="remove-mobile">Barbers</h2>
+
+        <img
+          src="imagens/menu-line.svg"
+          alt="botao-menu-mobile"
+          class="img-mobile"
+          id="buttonMenu"
+        />
+
+        <!-- MENU DESKTOP -->
+        <nav class="nav-desktop">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Servicos</a></li>
+            <li><a href="#">Barbearia</a></li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- MENU MOBILE -->
+      <nav class="navhidden" id="navMobile">
+        <ul class="ul-mobile">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Servicos</a></li>
+          <li><a href="#">Barbearia</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- SEÇAO HEADLINE -->
+      <section class="sessao-headline">
+        <div class="text1" data-aos="fade-up">
+          <div class="textprincipal">
+            <h1>
+              Os Melhores Cortes de <span>campinas </span>Têm Hora Marcada
+            </h1>
+          </div>
+
+          <div class="btnheadline">
+            <a href="#"> <button class="btn1">AGENDE JÁ SEU HORÁRIO</button></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇAO SERVIÇOS -->
+      <section class="sessao-servicos">
+        <h2 data-aos="fade-up">O QUE <span>OFERECEMOS</span></h2>
+        <div class="container-card">
+          <div class="card" data-aos="fade-up">
+            <img src="imagens/corte (1).jpg" alt="preview img" />
+            <div class="card-body">
+              <h2 class="card-title">CORTE</h2>
+              <p class="card-text">
+                Transforme seu estilo com um corte que revela sua verdadeira
+                essência
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+            <img src="imagens/barba (1).jpg" alt="preview img" />
+            <div class="card-body">
+              <h2 class="card-title">BARBA</h2>
+              <p class="card-text">
+                A barba dos seus sonhos, recisão e elegância.
+              </p>
+            </div>
+          </div>
+
+          <div class="card" data-aos="fade-up">
+            <img src="imagens/acabamento (1).jpg" alt="preview img" />
+            <div class="card-body">
+              <h2 class="card-title">ACABAMENTOS</h2>
+              <p class="card-text">
+                O toque final que vai fazer você seer que vá
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <a href="#"> <button class="btn2">AGENDE JÁ SEU HORÁRIO</button></a>
+        </div>
+      </section>
+
+      <!-- SEÇAO SOBRE -->
+      <section class="sessao-sobre">
+        <h2 data-aos="fade-up"><span>SOBRE</span> NÓS</h2>
+
+        <div class="textsobre" data-aos="fade-up">
+          <p>
+            Na Barbearia Estilo Fino, cada detalhe é pensado para proporcionar a
+            você um momento único de cuidado e estilo. Unimos tradição e
+            modernidade para entregar o melhor em cortes, barbas, tratamentos
+            capilares e uma experiência que vai muito além da cadeira. Aqui, o
+            atendimento é personalizado, o ambiente é descontraído e o foco é
+            fazer você se sentir bem. Seja para um corte clássico, uma barba
+            alinhada ou aquele fade moderno, nossos barbeiros estão sempre
+            atualizados nas tendências e prontos para valorizar o seu visual.
+          </p>
+        </div>
+
+        <div class="container-img-sobre" data-aos="fade-up">
+          <img
+            class="imgsobre"
+            src="imagens/barbeiro 1 (1).jpg"
+            alt="imagem-sobre"
+            class="img"
+          />
+          <img
+            class="imgsobre"
+            src="imagens/barbeiro 2 (1).jpg"
+            alt="imagem-sobre"
+            class="img"
+          />
+        </div>
+      </section>
+
+      <!-- SEÇAO CONHEÇA BARBEARIA -->
+      <section class="sessao-conheca-barbearia">
+        <h2>Espaço da <span> Nossa Barbearia</span></h2>
+
+        <div class="slider">
+          <div class="slides" id="slides">
+            <div class="slide">
+              <img src="imagens/carrosel 1 (1).jpg" alt="Imagem 1" />
+            </div>
+            <div class="slide">
+              <img src="imagens/carrosel 2 (1).jpg" alt="Imagem 1" />
+            </div>
+            <div class="slide">
+              <img src="imagens/carrosel 3 (1).jpg" alt="Imagem 1" />
+            </div>
+
+            <div class="slide">
+              <img src="imagens/carrosel 4 (1).jpg" alt="Imagem 1" />
+            </div>
+          </div>
+        </div>
+
+        <div class="dots-container" id="dots-container"></div>
+      </section>
+
+      <!-- SEÇAO FEDBACKS -->
+      <section class="sessao-feedbacks">
+        <div class="textsection5" data-aos="fade-up">
+          <div class="title5"><h2>Feedbacks que fazem a diferença</h2></div>
+
+          <div class="subtitle5">
+            <h3>Experiências de quem já passou por aqui</h3>
+          </div>
+        </div>
+
+        <div class="depoimentoscontainer" data-aos="fade-up">
+          <img
+            src="imagens/feedbacks.png"
+            alt="imagens-depoimentos"
+            class="imgdepoimentos"
+          />
+
+          <img
+            src="imagens/feedbacks.png"
+            alt="imagens-depoimentos"
+            class="imgdepoimentos"
+          />
+
+          <img
+            src="imagens/feedbacks.png"
+            alt="imagens-depoimentos"
+            class="imgdepoimentos"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <div class="container-footer">
+        <div class="content-footer">
+          <h3>CONTATOS</h3>
+          <p>19 978008676</p>
+        </div>
+
+        <div class="content-footer">
+          <h3>REdes Sociais</h3>
+          <img src="#" alt="rede-social" />
+        </div>
+      </div>
+      <div class="direitos">
+        <p>
+          &copy; 2025 Nome da Empresa do Cliente. Todos os direitos reservados.
+          Desenvolvido por
+          <a href="https://webdinin.com" target="_blank"
+            >WebDinin/MatheusBaldini</a
+          >.
+        </p>
+      </div>
+    </footer>
+
+    <script src="libs/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

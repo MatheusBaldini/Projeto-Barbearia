@@ -1,0 +1,496 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* GERAL */
+span {
+  border-bottom: 1px solid #926619;
+  color: #c88f2d;
+}
+
+button {
+  cursor: pointer;
+}
+
+.sessao-servicos,
+.sessao-sobre,
+.sessao-conheca-barbearia,
+.sessao-feedbacks,
+footer {
+  margin: 0px 5px 0px 5px;
+}
+
+/* CORPO DO SITE  */
+body {
+  font-family: "Cinzel", serif;
+  background-color: #0d0d0d;
+  background-attachment: fixed;
+  color: #f0e6d2;
+}
+
+/* SEÇAO CABEÇALHO*/
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}
+.menu {
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  gap: 150px;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: #f0e6d2;
+}
+
+li a:hover {
+  color: #c88f2d;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #c88f2d;
+}
+
+/* MENU MOBILE  */
+#buttonMenu {
+  display: none;
+}
+
+.navhidden {
+  z-index: 999;
+  display: none;
+}
+
+.ul-mobile {
+  border-top: 1px solid #c88f2d;
+  z-index: 9999;
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+
+/* SEÇÃO HEADLINE */
+.sessao-headline {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(./imagens/fundo\ barbeiro.png);
+  color: #ffffff; /* cobre queimado */
+}
+
+.text1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 2.4rem;
+  width: 50%;
+}
+
+.btn1 {
+  animation: animation 0.5s infinite alternate;
+  width: 90%;
+  border: none;
+  padding: 20px 120px;
+  font-size: 1.1rem;
+  background-color: #262626;
+  color: #f0e6d2;
+  transition: 0.5s;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+.btn1:hover {
+  background-color: #c88f2d;
+  color: #ffffff;
+}
+
+/* SEÇÃO SERVIÇOS */
+.sessao-servicos {
+  margin: 50px 0px 50px 0px;
+  padding: 100px;
+  min-height: 100vh;
+  color: #f0e6d2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.container-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  width: 400px;
+  height: 460px;
+  overflow: hidden;
+  border: 2px solid #444;
+}
+
+.card-body {
+  background-color: #2a2a2a;
+  flex-grow: 1;
+  padding: 24px;
+}
+
+.card-title {
+  color: #f5f5f5;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-text {
+  line-height: 1.4;
+  margin-top: 10px;
+  font-size: 17px;
+  color: #d1c5b2;
+}
+
+.btn2 {
+  text-decoration: none;
+  border: none;
+  background-color: #444;
+  color: #f0e6d2;
+  padding: 18px 70px;
+  transition: 0.4s;
+}
+
+.btn2:hover {
+  background-color: #c88f2d;
+  color: #0d0d0d;
+}
+
+/* SEÇAO SOBRE  */
+.sessao-sobre {
+  padding: 90px 0px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+  min-height: 90vh;
+  background-color: #111111;
+  color: #fff;
+}
+
+.textsobre {
+  padding-bottom: 60px;
+  border-bottom: 1px solid #f0e6d2;
+  text-align: center;
+  width: 50%;
+}
+
+.container-img-sobre {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.imgsobre {
+  width: 400px;
+  height: 500px;
+}
+
+/* CONHEÇA A BARBEARIA  */
+
+.sessao-conheca-barbearia {
+  margin: 100px 0px;
+  color: #ffffff;
+  padding: 40px 0px;
+  background-color: #50370d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 40px auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+.dots-container {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin: 0 6px;
+  background-color: #3b3636;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #ffffff;
+}
+
+/* SEÇÃO FEDBACKS */
+.sessao-feedbacks {
+  text-align: center;
+  padding: 50px;
+  color: #f0e6d2;
+  background-color: #0d0d0d;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+.textsessao-feedbacks {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.depoimentoscontainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.imgdepoimentos {
+  width: 500px;
+}
+
+/* RODAPÉ */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  color: #f0e6d2;
+  background-color: #121212;
+  border-top: 1px solid #c88f2d;
+  padding: 60px 0px 0px 0px;
+}
+
+.container-footer {
+  text-align: center;
+  display: flex;
+  gap: 100px;
+}
+
+.content-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.direitos {
+  padding: 20px;
+  color: white;
+  background-color: #c88f2d;
+  text-align: center;
+  width: 100%;
+}
+
+/* MEDIA PARA TABLETS  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CABEÇALHO */
+  .menu {
+    justify-content: space-around;
+  }
+  .nav-desktop {
+    display: none;
+  }
+  .remove-mobile {
+    display: none;
+  }
+
+  /* MENU MOBILE */
+
+  .ContainerMenuMobile {
+    display: block;
+  }
+
+  #buttonMenu {
+    display: block;
+  }
+
+  .text1 {
+    width: 100%;
+  }
+
+  .btn1 {
+    color: white;
+    background-color: #c88f2d;
+    width: 100%;
+    padding: 25px 0px;
+
+    border-radius: 10px;
+  }
+  .btn1:hover {
+    background-color: #c88f2d;
+    border: none;
+  }
+}
+
+/* MEDIA PARA CELULARES */
+@media (max-width: 767px) {
+  .sessao-servicos,
+  .section2,
+  .sessao-sobre,
+  .sessao-conheca-barbearia,
+  .sessao-feedbacks {
+    min-height: 56vh;
+  }
+  /* CABEÇALHO */
+  .menu {
+    justify-content: space-around;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+  .remove-mobile {
+    display: none;
+  }
+
+  /* MENU MOBILE */
+
+  #buttonMenu {
+    display: block;
+  }
+
+  /* SEÇÃO HEADLINE */
+  .text1 {
+    padding-top: 40px;
+    font-size: 1.2rem;
+    width: 100%;
+  }
+
+  .btn1 {
+    color: white;
+    background-color: #c88f2d;
+    width: 100%;
+    padding: 18px 5px 18px 5px;
+    font-size: 0.7rem;
+    border-radius: 10px;
+  }
+  .btn1:hover {
+    background-color: #c88f2d;
+    border: none;
+  }
+
+  /* SEÇAO SERVIÇOS */
+  h2 {
+    font-size: 1.2rem;
+
+    text-align: center;
+  }
+  .sessao-servicos {
+    gap: 80px;
+  }
+
+  .card {
+    width: 300px;
+    height: 260px;
+  }
+
+  .btn2 {
+    font-size: 0.8rem;
+    padding: 17px 17px 20px 20px;
+  }
+  /* SEÇAO SOBRE */
+  .sessao-sobre {
+    gap: 30px;
+  }
+
+  .textsobre {
+    text-align: justify;
+    font-size: 0.9rem;
+    padding: 30px;
+    width: 100%;
+  }
+
+  .imgsobre {
+    width: 250px;
+    height: 290px;
+  }
+  /* SEÇAO CONHEÇA BARBEARIA */
+
+  /*  SEÇAO FEDBACKS */
+
+  .imgdepoimentos {
+    max-width: 300px;
+  }
+
+  /* RODAPÉ */
+  footer {
+    font-size: 0.8rem;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .container-footer {
+    gap: 50px;
+    flex-direction: column;
+  }
+}
