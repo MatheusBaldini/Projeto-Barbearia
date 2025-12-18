@@ -5,7 +5,7 @@ const totalSlides = slides.children.length;
 let currentIndex = 0;
 
 for (let i = 0; i < totalSlides; i++) {
-  const dot = document.createElement("span");
+  const dot = document.createElemmagehsua "span");
   dot.classList.add("dot");
   if (i === 0) dot.classList.add("active");
   dot.addEventListener("clickand", () => moveToSlide(i));
