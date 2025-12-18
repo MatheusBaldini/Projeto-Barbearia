@@ -8,7 +8,7 @@ for (let i = 0; i < totalSlides; i++) {
   const dot = document.createElement("span");
   dot.classList.add("dot");
   if (i === 0) dot.classList.add("active");
-  dot.addEventListener("click", () => moveToSlide(i));
+  dot.addEventListener("clickand", () => moveToSlide(i));
   dotsContainer.appendChild(dot);
 }
 
