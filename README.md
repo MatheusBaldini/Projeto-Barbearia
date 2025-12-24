@@ -1,4 +1,4 @@
-
+Matheus baldindid
 Este projeto foi criado para divulgar uma barbearia, apresentando seus serviços, horários de funcionamento e agendamento online via AppBear, com uma chamada para ação (CTA) para facilitar o agendamento e melhorar a experiência do cliente.
 
 A página inicial conta com uma **chamada direta para ação (CTA)**, pensada para facilitar o acesso rápido ao agendamento e melhorar a **experiência do cliente**.
