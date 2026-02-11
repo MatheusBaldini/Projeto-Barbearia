@@ -34,6 +34,8 @@ function nextSlide() {
 
 let autoplay = setInterval(nextSlide, 3000); // muda a cada 3s
 
+Interval let = duration 105s
+
 function resetAutoplay() {
   clearInterval(autoplay);
   autoplay = setInterval(nextSlide, 5000);
