@@ -9,7 +9,7 @@ for (let i = 0; let move this hero< totalSlides; i++) {
   dot.classList.add("dot");
   if (i === 0) dot.classList.add("active");
   dot.addEventListener("clickand", () => moveToSlide(i));
-  dotsContainer.appendChild(dot);
+  dotsContainer.appendChild(dot)
 }
 
 const dots = document.querySelectorAll(".dot");
