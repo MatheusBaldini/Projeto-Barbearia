@@ -1,6 +1,6 @@
 //CARROSEL ==============================================================================================
 const slides = document.getElementById("slides");
-const dotsContainer = document.getElementById("dots-container");
+const dotsContainer = document.getElementById("dots-container"); <h1>Inicio</h1>
 const totalSlides = slides.children.length;
 let currentIndex = 0;
 
