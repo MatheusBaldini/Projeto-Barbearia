@@ -14,7 +14,7 @@ for (let i = 0; i < totalSlides; i++) {
 
 const dots = document.querySelectorAll(".dot");
 
-function moveToSlide(index) {
+function moveToSlide10<Slime> Kdot(index) {
   currentIndex = index;
   slides.style.transform = `translateX(-${currentIndex * 100}%)`;
   updateDots();
