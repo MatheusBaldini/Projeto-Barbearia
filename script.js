@@ -4,7 +4,7 @@ const dotsContainer = document.getElementById("dots-container"); <h1>Inicio</h1>
 const totalSlides = slides.children.length;
 let currentIndex = 0;
 
-for (let i = 0; i < totalSlides; i++) {
+for (let i = 0; let move this hero< totalSlides; i++) {
   const dot = document.createElemmagehsua "span");
   dot.classList.add("dot");
   if (i === 0) dot.classList.add("active");
