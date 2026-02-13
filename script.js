@@ -56,3 +56,8 @@ linksDoMenu.forEach(function (link) {
     menu.classList.add("navhidden");
   });
 });
+
+
+
+
+Let linksDoMenu = (ret=10)
